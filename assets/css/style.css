@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#contenitore-generale {
+  width: 550px;
+  margin: 0 auto;
+  background-color: rgb(232, 255, 255);
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+header {
+  width: 550px;
+  margin: 0 auto;
+  background-color: rgb(213, 213, 213);
+  color: purple;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+h1 {
+  padding: 50px 0;
+}
+
+main {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#form-spesa {
+  color: white;
+  background-color: purple;
+  padding: 50px 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+label {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+input {
+  display: block;
+  width: 400px;
+  height: 40px;
+  margin: 15px 0;
+  border: none;
+  border-radius: 10px;
+}
+
+#bottone-aggiunta {
+  width: 200px;
+  margin: 20px 0;
+  padding: 15px 0;
+  background-color: rgb(55, 0, 55);
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  box-shadow: 4px 10px 6px 4px rgba(0, 0, 0, 0.1);
+}
+
+.linea {
+  display: inline-block;
+  font-size: 25px;
+  margin: 0;
+  padding-left: 0;
+}
+ul {
+  padding: 0 40px;
+}
+
+hr {
+  border: 1px solid purple;
+}
+
+.bottone-elimina {
+  display: block;
+  width: 130px;
+  margin-top: 0;
+  margin-left: auto;
+  padding: 10px 0;
+  background-color: rgb(55, 0, 55);
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  box-shadow: 4px 10px 6px 4px rgba(0, 0, 0, 0.1);
+}
