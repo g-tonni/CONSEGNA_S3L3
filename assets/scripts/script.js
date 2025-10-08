@@ -14,8 +14,11 @@ const aggProdotto = function (e) {
   let prodottoVal = prodottoInserito.value
   console.log(prodottoVal)
 
+  let prodottoValSistemato =
+    prodottoVal.charAt().toUpperCase() + prodottoVal.slice(1).toLowerCase()
+
   const container = document.createElement('div')
-  container.innerHTML = `<li class="linea">${prodottoVal}</li> <hr> <button onclick="deleteP(event)" class="bottone-elimina">ELIMINA</>`
+  container.innerHTML = `<li class="linea">${prodottoValSistemato}</li> <hr> <button onclick="deleteP(event)" class="bottone-elimina">ELIMINA</>`
 
   const lineaCanc = document.getElementsByClassName('linea')
   console.log(lineaCanc)
