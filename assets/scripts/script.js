@@ -20,6 +20,10 @@ const aggProdotto = function (e) {
   const container = document.createElement('div')
   container.innerHTML = `<li class="linea">${prodottoValSistemato}</li> <hr> <button onclick="deleteP(event)" class="bottone-elimina">ELIMINA</>`
 
+  const listaS = document.getElementById('lista')
+  listaS.appendChild(container)
+  console.log(listaS)
+
   const lineaCanc = document.getElementsByClassName('linea')
   console.log(lineaCanc)
   for (let i = lineaCanc.length - 1; i > -1; i--) {
@@ -29,9 +33,6 @@ const aggProdotto = function (e) {
     })
   }
 
-  const listaS = document.getElementById('lista')
-  listaS.appendChild(container)
-  console.log(listaS)
   form.reset()
 }
 
